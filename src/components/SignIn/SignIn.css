@@ -1,0 +1,98 @@
+.home-banner-div {
+  padding: 100px 0px 0px 0px;
+  gap: 124px;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.sign-in-box {
+  gap: 32px;
+}
+.signin-btns-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  align-items: flex-start;
+  max-width: 169px;
+}
+.join-btn {
+  color: #939ca3;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: none;
+  border: none;
+}
+.signin-btn {
+  color: var(--Primary-Full, #8064a2);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: none !important;
+}
+.signin-btn-bor-div {
+  border: 0px 0px 12px 0px solid #8064a2 !important;
+}
+.home-people {
+  max-width: 697.067px;
+  width: 100%;
+  height: 216px;
+  flex-shrink: 0;
+}
+.google-btn {
+  display: flex;
+  padding: 12px 128px 12px 24px;
+  align-items: flex-start;
+  gap: 88px;
+  border-radius: 8px;
+  border: 1px solid var(--Primary-Full, #8064a2);
+  background: var(--Purple-3, #f7f5f9);
+  max-width: 410px;
+  margin-bottom: 16px;
+}
+.ggle-btn-txt {
+  color: var(--Grey-Darkest, #08090a);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 114.286% */
+}
+.conct-with-other-div {
+  display: flex;
+  width: 410px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0px 28px 0px;
+}
+.line-div {
+  width: 148px;
+  height: 2px;
+  flex-shrink: 0;
+  background: var(--Grey-Light, #ced4da);
+}
+.contc-text {
+  color: var(--Base-Black, var(--Black, #000));
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+}
+@media screen and (max-width: 768px) {
+  .home-banner-div {
+    flex-direction: column;
+    padding: 32px 0px 0px 0px;
+    gap: 48px;
+  }
+  .home-people {
+    width: 312px;
+    height: 96.737px;
+  }
+}
